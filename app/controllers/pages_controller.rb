@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
 
   def show
-    @student = {name: "Jaime", title: "Awesome Capstone", description: "Awesome", image: "jamie.jpg", url: "localhost3000"}
+    @student = {name: "Jaime", title: "Awesome Capstone", description: "Awesome", image: "http://www.gettyimages.ca/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg", url: "localhost3000"}
   end
 
   def index
