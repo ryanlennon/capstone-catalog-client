@@ -1,7 +1,6 @@
 <h1>Capstone Catalog</h1>
 <% @students.each do |student| %>
-  <h1>Student Name: <%= student[:first_name] %></h1>
-  <h2>Capstone Title: <%= student[:last_name] %></h2>
+  <h1>Student Name: <%= student[:name] %></h1>
   <h4>Description: <%= student[:description] %></h4>
   <h4>link: <%= student[:url] %> </h4>
   <img src="<%= student[:image] %>">
