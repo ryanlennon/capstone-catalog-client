@@ -5,5 +5,6 @@
   <h4>Description: <%= student["capstones"]["description"] if student["capstones"] %></h4>
   <h4>link: <%= student["capstones"]["url"] if student["capstones"] %> </h4>
   <img src="<%= student["capstones"]["screenshot_url"] if student["capstones"] %>">
+  <%= link_to "Show individual capstone info", "http://172.28.113.208:3000/students/#{student["id"]}.json"  %>
 <% end %>
 
